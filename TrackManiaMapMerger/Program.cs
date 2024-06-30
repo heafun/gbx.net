@@ -17,7 +17,7 @@ if (string.IsNullOrWhiteSpace(mapCountString))
 {
     try
     {
-        int.Parse(mapCountString);
+        mapCount = int.Parse(mapCountString);
     }
     catch
     {
